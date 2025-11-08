@@ -1,0 +1,4 @@
+<!-- ================== PERINTAH UPDATE GITHUB ================== -->
+git add .
+git commit -m "update tampilan terbaru"
+git push
