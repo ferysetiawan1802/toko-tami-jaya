@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produk - TOKO TAMI JAYA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ====== HEADER / NAVBAR ====== -->
+    <header>
+      <div class="navbar">
+        <div class="logo-container">
+          <img src="gambar/beranda/logo toko.png" alt="Logo Toko Tami Jaya" class="logo" />
+          <h1>TOKO TAMI JAYA</h1>
+        </div>
+        <nav>
+          <a href="index.html">Beranda</a>
+          <a href="produk.html" class="aktif">Produk</a>
+          <a href="https://wa.me/62859106710699?text=Halo%20Toko%20Tami%20Jaya" target="_blank">Chat WhatsApp</a>
+        </nav>
+      </div>
+    </header>
+    <!-- ====== END HEADER ====== -->
+
+    <!-- ====== KONTEN PRODUK ====== -->
+    <div class="container">
+      <h2 class="judul">Daftar Produk</h2>
+
+      <!-- ====== SEARCH & FILTER ====== -->
+      <div class="filter-bar">
+        <input type="text" id="search" placeholder="Cari produk..." />
+        <select id="kategori">
+          <option value="semua">Semua Kategori</option>
+          <option value="makanan">Makanan</option>
+          <option value="minuman">Minuman</option>
+          <option value="sembako">Sembako</option>
+        </select>
+      </div>
+      <!-- ====== END FILTER ====== -->
+
+      <!-- ====== GRID PRODUK ====== -->
+      <div class="produk-grid" id="produkContainer">
+        <!-- PRODUK MAKANAN -->
+        <div class="produk" data-nama="Indomie Goreng" data-kategori="makanan">
+          <img src="gambar/makanan/indomie goreng.jpg" alt="Indomie Goreng" />
+          <h3>Indomie Goreng Original</h3>
+          <p>Rp 3.500</p>
+          <p>Rp. 10.000 / 3 pcs</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Indomie%20Goreng%20Original" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Indomie Soto" data-kategori="makanan">
+          <img src="gambar/makanan/indomie soto.jpg" alt="Indomie Soto" />
+          <h3>Indomie Soto</h3>
+          <p>Rp 3.000</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Indomie%20Soto" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Berbagai Makanan Ringan" data-kategori="makanan">
+          <img src="gambar/makanan/makanan ringan.jpeg" alt="Berbagai Makanan Ringan" />
+          <h3>Berbagai Makanan Ringan</h3>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Makanan%20Ringan" target="_blank">Pesan via WA</a>
+        </div>
+
+        <!-- PRODUK MINUMAN -->
+        <div class="produk" data-nama="Anget Sari Susu Jahe" data-kategori="minuman">
+          <img src="gambar/minuman/kopi anget sari susu jahe.jpeg" alt="Anget Sari Susu Jahe" />
+          <h3>Anget Sari Susu Jahe</h3>
+          <p>Rp 12.000</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Anget%20Sari%20Susu%20Jahe" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Kopi Kapal Api Special Mix" data-kategori="minuman">
+          <img src="gambar/minuman/kopi kapal api mix.jpeg" alt="Kopi Kapal Api Special Mix" />
+          <h3>Kopi Kapal Api Special Mix</h3>
+          <p>Rp 17.500</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Kopi%20Kapal%20Api%20Special%20Mix" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Kopi Kapal Api Unyil" data-kategori="minuman">
+          <img src="gambar/minuman/kopi kapal api unyil.jpeg" alt="Kopi Kapal Api Unyil" />
+          <h3>Kopi Kapal Api Unyil</h3>
+          <p>Rp 10.000 / ranting</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Kopi%20Kapal%20Api%20Unyil" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Kopi ABC Susu" data-kategori="minuman">
+          <img src="gambar/minuman/kopi abc susu.jpeg" alt="Kopi ABC Susu" />
+          <h3>Kopi ABC Susu</h3>
+          <p>Rp 17.500</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Kopi%20ABC%20Susu" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Kopi Good Day Cappucino" data-kategori="minuman">
+          <img src="gambar/minuman/kopi good day cappucino.jpeg" alt="Kopi Good Day Cappucino" />
+          <h3>Kopi Good Day Cappucino</h3>
+          <p>Rp 21.000</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Kopi Good Day Cappucino" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Energen" data-kategori="minuman">
+          <img src="gambar/minuman/energen.jpeg" alt="Energen" />
+          <h3>Energen</h3>
+          <p>Rp 18.000</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Energen" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Jas Jus" data-kategori="minuman">
+          <img src="gambar/minuman/jasjus.jpeg" alt="Jas Jus" />
+          <h3>Jas Jus</h3>
+          <p>Rp 3.500 / ranting</p>
+          <p>Rp 10.000 / 3 ranting</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Jas Jus" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Kopi Good Day Freeze" data-kategori="minuman">
+          <img src="gambar/minuman/kopi good day freeze.jpeg" alt="Kopi Good Day Freeze" />
+          <h3>Kopi Good Day Freeze</h3>
+          <p>Rp 25.000</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Kopi%20Good%20Day%20Freeze" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Kopi Indocafe-" data-kategori="minuman">
+          <img src="gambar/minuman/kopi indocafe.jpeg" alt="Kopi Indocafe-" />
+          <h3>Kopi Indocafe-</h3>
+          <p>Rp 16.000</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Kopi%20Indocafe%20Mix" target="_blank">Pesan via WA</a>
+        </div>
+
+        <!-- PRODUK SEMBAKO -->
+        <div class="produk" data-nama="Terlur Ayam" data-kategori="sembako">
+          <img src="gambar/sembako/telur ayam.jpeg" alt="Terlur Ayam" />
+          <h3>Terlur Ayam</h3>
+          <p>Rp 29.500 / Kg</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20saya%20ingin%20membeli%20Indomie%20Soto" target="_blank">Pesan via WA</a>
+        </div>
+
+        <div class="produk" data-nama="Minyak Resto" data-kategori="sembako">
+          <img src="gambar/sembako/minyak resto.jpg" alt="Minyak Resto" />
+          <h3>Minyak Resto 1L</h3>
+          <p>Rp 20.000</p>
+          <a class="wa-btn" href="https://wa.me/62859106710699?text=Halo,%20s--aya%20ingin%20membeli%20Minyak%20Resto%201L" target="_blank">Pesan via WA</a>
+        </div>
+      </div>
+      <!-- ====== END GRID PRODUK ====== -->
+    </div>
+    <!-- ====== END KONTEN PRODUK ====== -->
+
+    <!-- ====== FOOTER ====== -->
+    <footer>
+      <p>&copy; 2025 TOKO TAMI JAYA | Dibuat oleh Fery Setiawan</p>
+    </footer>
+    <!-- ====== END FOOTER ====== -->
+
+    <!-- ====== TOMBOL SCROLL UP ====== -->
+    <button id="scrollUpBtn" title="Kembali ke atas">⬆</button>
+    <!-- ====== END TOMBOL SCROLL UP ====== -->
+
+    <!-- ====== SCRIPT ====== -->
+    <script src="script.js"></script>
+
+    <script>
+      // ====== SCROLL UP BUTTON FUNCTION ======
+      const scrollUpBtn = document.getElementById("scrollUpBtn");
+
+      // Tampilkan tombol saat scroll melewati navbar
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 150) {
+          scrollUpBtn.classList.add("show");
+        } else {
+          scrollUpBtn.classList.remove("show");
+        }
+      });
+
+      // Fungsi klik tombol untuk scroll ke atas
+      scrollUpBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    </script>
+    <!-- ====== END SCRIPT ====== -->
+
+    <!-- ====== SCRIPT ====== -->
+    <script src="script.js"></script>
+  </body>
+</html>
